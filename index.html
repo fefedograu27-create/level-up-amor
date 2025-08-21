@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Up no Amor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ff6b81, #ff4757);
+            color: #fff;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            color: #ffd700;
+        }
+
+        header {
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .ebook-container {
+            background: #fff;
+            color: #333;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 800px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            text-align: left;
+        }
+
+        .ebook-container h2 {
+            color: #ff4757;
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 28px;
+            background-color: #ff4757;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #e63946;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">❤️ Level Up no Amor</div>
+        <ul>
+            <li><a href="#inicio" class="active">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#download">Download</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio">
+        <h1>Level Up no Amor</h1>
+        <p>Um guia prático para transformar sua vida amorosa e construir relacionamentos saudáveis e gratificantes.</p>
+    </header>
+
+    <section id="sobre" class="ebook-container">
+        <h2>Sobre o eBook</h2>
+        <p>
+            Este eBook é um convite para transformar sua vida amorosa. "Level Up no Amor" oferece um guia prático para
+            aqueles que desejam aprimorar suas habilidades nos relacionamentos. Ele aborda desde a identificação de
+            padrões autossabotadores até estratégias para fortalecer a confiança e manter a chama acesa.
+        </p>
+        <p>
+            Seja você alguém em busca de um novo amor, iniciando uma nova fase ou tentando revitalizar uma relação existente,
+            este livro representa um passo significativo rumo à evolução na vida amorosa.
+        </p>
+    </section>
+
+    <section id="download" class="ebook-container" style="text-align: center;">
+        <h2>Baixe Agora</h2>
+        <p>Clique no botão abaixo para baixar o eBook gratuitamente:</p>
+        <a href="SUMARIO.pdf" download class="download-btn">📥 Baixar eBook (PDF)</a>
+    </section>
+
+    <footer>
+        &copy; 2025 Level Up no Amor. Todos os direitos reservados.
+    </footer>
+</body>
+</html>

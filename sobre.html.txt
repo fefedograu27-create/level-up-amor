@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Level Up no Amor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">❤️ Level Up no Amor</h1>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html" class="active">Sobre</a></li>
+                <li><a href="download.html">Download</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>Sobre o eBook</h2>
+        <p>
+            O eBook "Level Up no Amor" é um guia prático para quem deseja evoluir na vida amorosa.
+            Ele aborda temas como:
+        </p>
+        <ul>
+            <li>Identificação de padrões autossabotadores</li>
+            <li>Comunicação eficaz no amor</li>
+            <li>Construção de confiança e conexão</li>
+            <li>Manutenção da paixão no relacionamento</li>
+            <li>Desenvolvimento do amor-próprio</li>
+        </ul>
+        <p>
+            Prepare-se para dar um upgrade em sua vida amorosa com dicas práticas e estratégias comprovadas!
+        </p>
+        <a href="download.html" class="btn">📥 Baixar Agora</a>
+    </main>
+</body>
+</html>
